@@ -190,6 +190,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -274,6 +277,12 @@ Charles F. Vardeman II
 </section>
 <section id="our-dialogue-engineering-process" class="slide level2">
 <h2>Our Dialogue Engineering Process</h2>
+<h3 id="step-0-working-with-a-thinking-model">Step 0: Working with a “thinking model”</h3>
+<ul>
+<li>Use ChatGPT o3 or Claude Opus</li>
+<li>Have a dialog about what you want to do</li>
+<li>Create a concise summary about what you want to do to export</li>
+</ul>
 <h3 id="step-1-voice-driven-strategic-planning">Step 1: Voice-Driven Strategic Planning</h3>
 <p>“Think through this presentation with you as co-pilot” - Started with high-level goals - No code yet - just thinking - Voice input via Mac Whisper</p>
 </section>
@@ -296,12 +305,29 @@ Charles F. Vardeman II
 </section>
 <section id="the-feedback-loop-in-action" class="slide level2">
 <h2>The Feedback Loop in Action</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>graph LR</span>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource default number-lines code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a></a>graph LR</span>
 <span id="cb3-2"><a></a>    A[Voice Input] --&gt; B[Claude Thinks]</span>
 <span id="cb3-3"><a></a>    B --&gt; C[Tool Use]</span>
 <span id="cb3-4"><a></a>    C --&gt; D[Human Review]</span>
 <span id="cb3-5"><a></a>    D --&gt; E[Refinement]</span>
 <span id="cb3-6"><a></a>    E --&gt; A</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    A[Voice Input] --&gt; B[Claude Thinks]
+    B --&gt; C[Tool Use]
+    C --&gt; D[Human Review]
+    D --&gt; E[Refinement]
+    E --&gt; A
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <p>Each cycle deepens understanding</p>
 </section></section>
 <section>
@@ -488,6 +514,24 @@ Charles F. Vardeman II
 <li>Tool permissions</li>
 </ul>
 <p>📚 <a href="https://www.anthropic.com/engineering/claude-code-best-practices">Claude Code Best Practices</a></p>
+</section>
+<section id="task-specific-agents" class="slide level2">
+<h2>Task-Specific Agents</h2>
+<p><strong>Custom Slash Commands</strong>: Claude Code automatically recognizes <code>.md</code> files in <code>.claude/commands/</code></p>
+<h3 id="usage-examples">Usage Examples</h3>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a></a><span class="ex">/project:programming_lead_agent</span></span>
+<span id="cb8-2"><a></a><span class="ex">/project:task_breakdown_agent</span> <span class="st">"user auth system"</span></span>
+<span id="cb8-3"><a></a><span class="ex">/project:architecture_design_agent</span> <span class="st">"microservices API"</span></span>
+<span id="cb8-4"><a></a><span class="ex">/project:implementation_agent</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<h3 id="agent-workflow">Agent Workflow</h3>
+<ul>
+<li><strong>Programming Lead</strong>: Orchestrates development process</li>
+<li><strong>Problem Analysis</strong>: Transforms requirements → specifications</li>
+<li><strong>Architecture Design</strong>: Creates system designs</li>
+<li><strong>Task Breakdown</strong>: Architecture → implementable tasks</li>
+<li><strong>Implementation</strong>: Executes plans and builds code</li>
+</ul>
+<p>📁 <strong>Included in this repo</strong>: <code>.claude/commands/</code> directory with 9 specialized agents 📚 <strong>Reference</strong>: <a href="https://github.com/hesreallyhim/awesome-claude-code">Awesome Claude Code Commands</a></p>
 </section>
 <section id="anthropic-team-talks" class="slide level2">
 <h2>Anthropic Team Talks</h2>

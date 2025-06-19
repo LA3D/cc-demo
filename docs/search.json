@@ -39,7 +39,7 @@
     "href": "claude-code.html#our-dialogue-engineering-process",
     "title": "Making a demo with Claude Code",
     "section": "Our Dialogue Engineering Process",
-    "text": "Our Dialogue Engineering Process\nStep 1: Voice-Driven Strategic Planning\n“Think through this presentation with you as co-pilot” - Started with high-level goals - No code yet - just thinking - Voice input via Mac Whisper"
+    "text": "Our Dialogue Engineering Process\nStep 0: Working with a “thinking model”\n\nUse ChatGPT o3 or Claude Opus\nHave a dialog about what you want to do\nCreate a concise summary about what you want to do to export\n\nStep 1: Voice-Driven Strategic Planning\n“Think through this presentation with you as co-pilot” - Started with high-level goals - No code yet - just thinking - Voice input via Mac Whisper"
   },
   {
     "objectID": "claude-code.html#step-2-context-gathering",
@@ -67,7 +67,7 @@
     "href": "claude-code.html#the-feedback-loop-in-action",
     "title": "Making a demo with Claude Code",
     "section": "The Feedback Loop in Action",
-    "text": "The Feedback Loop in Action\ngraph LR\n    A[Voice Input] --&gt; B[Claude Thinks]\n    B --&gt; C[Tool Use]\n    C --&gt; D[Human Review]\n    D --&gt; E[Refinement]\n    E --&gt; A\nEach cycle deepens understanding"
+    "text": "The Feedback Loop in Action\n\ngraph LR\n    A[Voice Input] --&gt; B[Claude Thinks]\n    B --&gt; C[Tool Use]\n    C --&gt; D[Human Review]\n    D --&gt; E[Refinement]\n    E --&gt; A\n\n\n\n\ngraph LR\n    A[Voice Input] --&gt; B[Claude Thinks]\n    B --&gt; C[Tool Use]\n    C --&gt; D[Human Review]\n    D --&gt; E[Refinement]\n    E --&gt; A\n\n\n\n\n\n\nEach cycle deepens understanding"
   },
   {
     "objectID": "claude-code.html#the-meta-demonstration",
@@ -187,6 +187,13 @@
     "title": "Making a demo with Claude Code",
     "section": "Best Practices",
     "text": "Best Practices\n\nCLAUDE.md configuration\nCustom workflows\nSafety considerations\nTool permissions\n\n📚 Claude Code Best Practices"
+  },
+  {
+    "objectID": "claude-code.html#task-specific-agents",
+    "href": "claude-code.html#task-specific-agents",
+    "title": "Making a demo with Claude Code",
+    "section": "Task-Specific Agents",
+    "text": "Task-Specific Agents\nCustom Slash Commands: Claude Code automatically recognizes .md files in .claude/commands/\nUsage Examples\n/project:programming_lead_agent\n/project:task_breakdown_agent \"user auth system\"\n/project:architecture_design_agent \"microservices API\"\n/project:implementation_agent\nAgent Workflow\n\nProgramming Lead: Orchestrates development process\nProblem Analysis: Transforms requirements → specifications\nArchitecture Design: Creates system designs\nTask Breakdown: Architecture → implementable tasks\nImplementation: Executes plans and builds code\n\n📁 Included in this repo: .claude/commands/ directory with 9 specialized agents 📚 Reference: Awesome Claude Code Commands"
   },
   {
     "objectID": "claude-code.html#anthropic-team-talks",

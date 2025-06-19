@@ -56,13 +56,12 @@ This presentation was created collaboratively by human and AI using Claude Code 
 
 # Working with Claude Code
 
-## Our Dialogue Engineering Process
-### Step 0: Working with a "thinking model"
+## Step 0: Working with a "thinking model"
 - Use ChatGPT o3 or Claude Opus
 - Have a dialog about what you want to do
 - Create a concise summary about what you want to do to export
 
-### Step 1: Voice-Driven Strategic Planning
+## Step 1: Voice-Driven Strategic Planning
 "Think through this presentation with you as co-pilot"
 - Started with high-level goals
 - No code yet - just thinking
