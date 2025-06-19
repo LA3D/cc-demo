@@ -1,0 +1,263 @@
+---
+title: "Making a demo with Claude Code"
+subtitle: "Dialogue Engineering with AI"
+author: "Charles F. Vardeman II"
+date: today
+format: revealjs
+---
+
+# Introduction
+
+This presentation was created collaboratively by human and AI using Claude Code itself - a live demonstration of dialogue engineering in action.
+
+## The Meta-Presentation
+
+- These slides: Created with Claude Code
+- The tools: Quarto + Reveal.js
+- The method: Human + AI collaboration
+- The proof: You're looking at it
+
+## What is Claude Code?
+
+- **Agentic system** with reasoning capabilities
+- Thinks, reflects, uses tools strategically
+- **Interactive mode**: Human-AI collaboration
+- **Autonomous mode**: Independent task completion
+
+📚 [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
+
+## What is Dialogue Engineering?
+
+- Jeremy Howard's Answer.AI methodology
+- Small steps beat big code dumps
+- "Powerful feedback loop" - each step makes both smarter
+- Write a line, AI suggests next, iterate
+
+📚 [Answer.AI Dialogue Engineering](https://www.answer.ai/posts/2024-11-07-solveit.html)
+
+## Why This Matters for Grad Students
+
+- Research productivity multiplier
+- Handle complex codebases efficiently
+- Voice-driven development (Mac Whisper)
+- From idea to implementation faster
+
+## Today's Journey
+
+- Foundation: Unix philosophy & tools
+- Methodology: How we collaborate
+- Advanced: Planning & web capabilities
+- Practice: Building these slides together
+
+## The Terminal Advantage
+
+- Lives in your terminal, not your editor
+- Works with VS Code, JetBrains, vim, emacs...
+- Editor-agnostic by design
+- Your workflow, your tools
+
+# Foundation: Philosophy & Tools
+
+## The Unix Philosophy
+
+- Small, focused tools
+- Composability over monoliths
+- Text as universal interface
+- Do one thing well
+
+## Claude Code's Tool Ecosystem
+
+- **Read/Write**: File operations
+- **Edit/MultiEdit**: Precise modifications
+- **Grep/Glob**: Pattern search
+- **Bash**: System commands
+- **WebSearch/WebFetch**: Live information
+
+## Agentic Search vs Vector Indexing
+
+- No pre-built index needed
+- Dynamic exploration
+- Context-aware navigation
+- Tools compose into workflows
+
+## Live Demo: Exploring a Codebase
+
+```bash
+# Traditional approach
+find . -name "*.py" | xargs grep "function"
+
+# Claude Code approach
+# Natural language → Composed tool actions
+```
+
+# Methodology: Dialogue Engineering
+
+## The Solveit Methodology
+
+- Jeremy Howard's "How to Solve It with Code"
+- Break problems into "small, solvable pieces"
+- Start solving concrete problems day one
+- Not about being genius - about right process
+
+📚 [Solveit Course](https://solveit.fast.ai/) | [Answer.AI](https://www.answer.ai/)
+
+## Our Actual Process
+
+1. **Voice-driven planning**: "Think through this presentation with you as co-pilot"
+2. **Web research first**: Fetched Claude Code best practices immediately
+3. **Todo-driven structure**: Created task list before coding
+4. **Iterative refinement**: "This is superficial" → deeper research
+5. **Meta-awareness**: Using the creation process as demo content
+
+## Repository Structure
+
+```
+project/
+├── CLAUDE.md          # Project instructions
+├── llmstxt/          # Reference materials
+├── dialogs/          # Saved conversations
+└── src/              # Your code
+```
+
+## Voice-Driven Development
+
+- Mac Whisper integration
+- Natural language to code
+- Thinking out loud
+- Rapid iteration
+
+## The Feedback Loop We Used
+
+1. **Voice → Strategic thinking**: Mac Whisper to Claude Code
+2. **Research → Context**: WebFetch for best practices, solveit methodology  
+3. **Structure → Implementation**: Todo list → slide stubs → refinement
+4. **Critique → Improvement**: "Superficial" → deeper research → better content
+5. **Meta-recursion**: Process becomes content
+
+# Advanced: Strategic Thinking
+
+## Planning Mode
+
+- Think before coding
+- Decompose complex problems
+- Strategic approach
+- Clear execution path
+
+## Thought Models (Opus)
+
+- Deep reasoning capability
+- Complex problem solving
+- Strategic planning
+- Architectural decisions
+
+## Web Capabilities
+
+- **WebSearch**: Current information
+- **WebFetch**: Extract documentation
+- Stay beyond training cutoff
+- Real-time knowledge gathering
+
+## Best Practices
+
+- CLAUDE.md configuration
+- Custom workflows
+- Safety considerations
+- Tool permissions
+
+📚 [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+
+# Practice: Creating These Slides
+
+## The Meta-Demonstration
+
+- These slides were made using Claude Code
+- Live dialogue engineering
+- Real workflow demonstration
+- You're seeing the result
+
+## Initial Setup
+
+```bash
+# Repository structure
+cc-demo/
+├── CLAUDE.md
+├── claude-code.qmd
+├── dialogs/
+└── llmstxt/
+```
+
+## Planning Our Approach
+
+- Used Opus for strategic thinking
+- Created todo list for tracking
+- Fetched best practices documentation
+- Iterative content development
+
+## Voice Workflow in Action
+
+[Live demonstration of voice input]
+
+## Common Pitfalls
+
+- Over-ambitious initial requests
+- Not using CLAUDE.md
+- Skipping planning phase
+- Ignoring tool permissions
+
+## Safety Considerations
+
+- Tool allowlists
+- Container environments
+- Git integration
+- Code review practices
+
+# Resources & Next Steps
+
+## Essential Links
+
+**Claude Code**
+- [Documentation](https://docs.anthropic.com/en/docs/claude-code)
+- [Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+- [GitHub Issues](https://github.com/anthropics/claude-code/issues)
+
+**Dialogue Engineering**
+- [Answer.AI Solveit](https://www.answer.ai/posts/2024-11-07-solveit.html)
+- [Solveit Course](https://solveit.fast.ai/)
+- [Jeremy Howard's Answer.AI](https://www.answer.ai/)
+
+## Tools & Workflow
+
+**Voice Input**
+- [Mac Whisper](https://goodsnooze.gumroad.com/l/macwhisper)
+- [OpenAI Whisper](https://github.com/openai/whisper)
+
+**Quarto & RevealJS**
+- [Quarto Documentation](https://quarto.org/)
+- [RevealJS Presentations](https://quarto.org/docs/presentations/revealjs/)
+- [GitHub Pages Publishing](https://quarto.org/docs/publishing/github-pages.html)
+
+## This Presentation
+
+📁 [Source Repository](https://github.com/LA3D/cc-demo)
+📄 [Presentation QMD](https://github.com/LA3D/cc-demo/blob/main/claude-code.qmd)
+💬 [Dialogue Transcripts](https://github.com/LA3D/cc-demo/tree/main/dialogs)
+🌐 [Live Presentation](https://la3d.github.io/cc-demo/)
+
+## Key Takeaways
+
+- Dialogue engineering > Code generation
+- Small steps win
+- Voice + AI = Productivity
+- Tools compose beautifully
+
+## Your Turn
+
+1. Install Claude Code
+2. Set up CLAUDE.md in your projects
+3. Try voice input workflow
+4. Start with small problems
+5. Build your dialogue engineering skills
+
+## Questions?
+
+Let's solve a problem together!
