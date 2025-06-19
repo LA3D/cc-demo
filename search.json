@@ -1,0 +1,247 @@
+[
+  {
+    "objectID": "claude-code.html#the-meta-presentation",
+    "href": "claude-code.html#the-meta-presentation",
+    "title": "Making a demo with Claude Code",
+    "section": "The Meta-Presentation",
+    "text": "The Meta-Presentation\n\nThese slides: Created with Claude Code\nThe tools: Quarto + Reveal.js\nThe method: Human + AI collaboration\nThe proof: You’re looking at it"
+  },
+  {
+    "objectID": "claude-code.html#what-is-claude-code",
+    "href": "claude-code.html#what-is-claude-code",
+    "title": "Making a demo with Claude Code",
+    "section": "What is Claude Code?",
+    "text": "What is Claude Code?\n\nAgentic system with reasoning capabilities\nThinks, reflects, uses tools strategically\nInteractive mode: Human-AI collaboration\nAutonomous mode: Independent task completion\n\n📚 Claude Code Documentation"
+  },
+  {
+    "objectID": "claude-code.html#why-this-matters-for-grad-students",
+    "href": "claude-code.html#why-this-matters-for-grad-students",
+    "title": "Making a demo with Claude Code",
+    "section": "Why This Matters for Grad Students",
+    "text": "Why This Matters for Grad Students\n\nResearch productivity multiplier\nHandle complex codebases efficiently\nVoice-driven development (Mac Whisper)\nFrom idea to implementation faster"
+  },
+  {
+    "objectID": "claude-code.html#the-unix-philosophy",
+    "href": "claude-code.html#the-unix-philosophy",
+    "title": "Making a demo with Claude Code",
+    "section": "The Unix Philosophy",
+    "text": "The Unix Philosophy\n\nSmall, focused tools\nComposability over monoliths\nText as universal interface\nDo one thing well"
+  },
+  {
+    "objectID": "claude-code.html#what-is-dialogue-engineering",
+    "href": "claude-code.html#what-is-dialogue-engineering",
+    "title": "Making a demo with Claude Code",
+    "section": "What is Dialogue Engineering?",
+    "text": "What is Dialogue Engineering?\n\nJeremy Howard’s Answer.AI methodology\nSmall steps beat big code dumps\n“Powerful feedback loop” - each step makes both smarter\nWrite a line, AI suggests next, iterate\n\n📚 Answer.AI Dialogue Engineering"
+  },
+  {
+    "objectID": "claude-code.html#the-solveit-methodology",
+    "href": "claude-code.html#the-solveit-methodology",
+    "title": "Making a demo with Claude Code",
+    "section": "The Solveit Methodology",
+    "text": "The Solveit Methodology\n\nJeremy Howard’s “How to Solve It with Code”\nBreak problems into “small, solvable pieces”\nStart solving concrete problems day one\nNot about being genius - about right process\n\n📚 Solveit Course | Answer.AI"
+  },
+  {
+    "objectID": "claude-code.html#our-dialogue-engineering-process",
+    "href": "claude-code.html#our-dialogue-engineering-process",
+    "title": "Making a demo with Claude Code",
+    "section": "Our Dialogue Engineering Process",
+    "text": "Our Dialogue Engineering Process\nStep 1: Voice-Driven Strategic Planning\n“Think through this presentation with you as co-pilot” - Started with high-level goals - No code yet - just thinking - Voice input via Mac Whisper"
+  },
+  {
+    "objectID": "claude-code.html#step-2-context-gathering",
+    "href": "claude-code.html#step-2-context-gathering",
+    "title": "Making a demo with Claude Code",
+    "section": "Step 2: Context Gathering",
+    "text": "Step 2: Context Gathering\n# First action: Fetch best practices\nWebFetch(https://www.anthropic.com/engineering/claude-code-best-practices)\n# Result: 273.2KB of guidance"
+  },
+  {
+    "objectID": "claude-code.html#step-3-todo-driven-structure",
+    "href": "claude-code.html#step-3-todo-driven-structure",
+    "title": "Making a demo with Claude Code",
+    "section": "Step 3: Todo-Driven Structure",
+    "text": "Step 3: Todo-Driven Structure\n☐ Define presentation structure and flow\n☐ Outline Unix philosophy section\n☐ Plan dialogue engineering section\n☐ Design workflow demonstrations"
+  },
+  {
+    "objectID": "claude-code.html#step-4-iterative-refinement",
+    "href": "claude-code.html#step-4-iterative-refinement",
+    "title": "Making a demo with Claude Code",
+    "section": "Step 4: Iterative Refinement",
+    "text": "Step 4: Iterative Refinement\nYou: “This is superficial” Action: WebSearch + WebFetch for Jeremy Howard’s methodology Result: Deeper understanding → Better content"
+  },
+  {
+    "objectID": "claude-code.html#the-feedback-loop-in-action",
+    "href": "claude-code.html#the-feedback-loop-in-action",
+    "title": "Making a demo with Claude Code",
+    "section": "The Feedback Loop in Action",
+    "text": "The Feedback Loop in Action\ngraph LR\n    A[Voice Input] --&gt; B[Claude Thinks]\n    B --&gt; C[Tool Use]\n    C --&gt; D[Human Review]\n    D --&gt; E[Refinement]\n    E --&gt; A\nEach cycle deepens understanding"
+  },
+  {
+    "objectID": "claude-code.html#the-meta-demonstration",
+    "href": "claude-code.html#the-meta-demonstration",
+    "title": "Making a demo with Claude Code",
+    "section": "The Meta-Demonstration",
+    "text": "The Meta-Demonstration\nThese slides are the proof: - Created through our dialogue - Using the methodology we’re teaching - Voice → Planning → Research → Implementation - You’re experiencing the result"
+  },
+  {
+    "objectID": "claude-code.html#how-we-actually-started",
+    "href": "claude-code.html#how-we-actually-started",
+    "title": "Making a demo with Claude Code",
+    "section": "How We Actually Started",
+    "text": "How We Actually Started\n\nYou opened dialogs/thinking.txt - Recording our process\nSelected Opus model - For strategic thinking\nVoice dictation began - Natural language planning\nNo code written yet - Just collaborative thinking"
+  },
+  {
+    "objectID": "claude-code.html#key-moments-in-our-dialogue",
+    "href": "claude-code.html#key-moments-in-our-dialogue",
+    "title": "Making a demo with Claude Code",
+    "section": "Key Moments in Our Dialogue",
+    "text": "Key Moments in Our Dialogue\nThe Opening\n\n“I want to think through this presentation with you as co-pilot”\n\nThe Critique\n\n“This is superficial”\n\nThe Insight\n\n“The real-world application is… me walking through how I created this presentation with you”"
+  },
+  {
+    "objectID": "claude-code.html#voice-workflow-our-actual-process",
+    "href": "claude-code.html#voice-workflow-our-actual-process",
+    "title": "Making a demo with Claude Code",
+    "section": "Voice Workflow: Our Actual Process",
+    "text": "Voice Workflow: Our Actual Process\n\nMac Whisper → Natural language\nComplex thoughts → Simple commands\n“Think through…” → Strategic planning\n“Let’s revise…” → Iterative improvement\nReal-time collaboration → Better results"
+  },
+  {
+    "objectID": "claude-code.html#dialogue-engineering-code-generation",
+    "href": "claude-code.html#dialogue-engineering-code-generation",
+    "title": "Making a demo with Claude Code",
+    "section": "Dialogue Engineering > Code Generation",
+    "text": "Dialogue Engineering &gt; Code Generation\n\nSmall steps win\nVoice + AI = Productivity\nTools compose beautifully\nProcess beats genius"
+  },
+  {
+    "objectID": "claude-code.html#your-turn",
+    "href": "claude-code.html#your-turn",
+    "title": "Making a demo with Claude Code",
+    "section": "Your Turn",
+    "text": "Your Turn\n\nInstall Claude Code\nSet up CLAUDE.md in your projects\nTry voice input workflow\nStart with small problems\nBuild your dialogue engineering skills"
+  },
+  {
+    "objectID": "claude-code.html#questions",
+    "href": "claude-code.html#questions",
+    "title": "Making a demo with Claude Code",
+    "section": "Questions?",
+    "text": "Questions?\nLet’s solve a problem together!"
+  },
+  {
+    "objectID": "claude-code.html#getting-started-with-claude-code",
+    "href": "claude-code.html#getting-started-with-claude-code",
+    "title": "Making a demo with Claude Code",
+    "section": "Getting Started with Claude Code",
+    "text": "Getting Started with Claude Code\nOfficial Homepage: https://www.anthropic.com/claude-code\nInstallation:\nFirst, install Node.js 18+ (macOS with Homebrew):\nbrew install node\nThen install Claude Code:\nnpm install -g @anthropic-ai/claude-code\nRequirements: - macOS, Linux, or Windows (via WSL) - Claude Pro ($17/month) or Max (starting $100/month) - Terminal access"
+  },
+  {
+    "objectID": "claude-code.html#the-terminal-advantage",
+    "href": "claude-code.html#the-terminal-advantage",
+    "title": "Making a demo with Claude Code",
+    "section": "The Terminal Advantage",
+    "text": "The Terminal Advantage\n\nLives in your terminal, not your editor\nWorks with VS Code, JetBrains, vim, emacs…\nEditor-agnostic by design\nYour workflow, your tools"
+  },
+  {
+    "objectID": "claude-code.html#voice-driven-development",
+    "href": "claude-code.html#voice-driven-development",
+    "title": "Making a demo with Claude Code",
+    "section": "Voice-Driven Development",
+    "text": "Voice-Driven Development\n\nMac Whisper integration\nNatural language to code\nThinking out loud\nRapid iteration\n\n📎 Mac Whisper | SuperWhisper"
+  },
+  {
+    "objectID": "claude-code.html#repository-structure-as-memory",
+    "href": "claude-code.html#repository-structure-as-memory",
+    "title": "Making a demo with Claude Code",
+    "section": "Repository Structure as Memory",
+    "text": "Repository Structure as Memory\nproject/\n├── CLAUDE.md          # Project instructions\n├── llmstxt/          # Reference materials\n├── dialogs/          # Saved conversations\n└── src/              # Your code"
+  },
+  {
+    "objectID": "claude-code.html#claude-codes-tool-ecosystem",
+    "href": "claude-code.html#claude-codes-tool-ecosystem",
+    "title": "Making a demo with Claude Code",
+    "section": "Claude Code’s Tool Ecosystem",
+    "text": "Claude Code’s Tool Ecosystem\n\nRead/Write: File operations\nEdit/MultiEdit: Precise modifications\nGrep/Glob: Pattern search\nBash: System commands\nWebSearch/WebFetch: Live information"
+  },
+  {
+    "objectID": "claude-code.html#agentic-search-vs-vector-indexing",
+    "href": "claude-code.html#agentic-search-vs-vector-indexing",
+    "title": "Making a demo with Claude Code",
+    "section": "Agentic Search vs Vector Indexing",
+    "text": "Agentic Search vs Vector Indexing\n\nNo pre-built index needed\nDynamic exploration\nContext-aware navigation\nTools compose into workflows"
+  },
+  {
+    "objectID": "claude-code.html#web-capabilities",
+    "href": "claude-code.html#web-capabilities",
+    "title": "Making a demo with Claude Code",
+    "section": "Web Capabilities",
+    "text": "Web Capabilities\n\nWebSearch: Current information\nWebFetch: Extract documentation\nStay beyond training cutoff\nReal-time knowledge gathering"
+  },
+  {
+    "objectID": "claude-code.html#planning-mode",
+    "href": "claude-code.html#planning-mode",
+    "title": "Making a demo with Claude Code",
+    "section": "Planning Mode",
+    "text": "Planning Mode\n\nThink before coding\nDecompose complex problems\nStrategic approach\nClear execution path"
+  },
+  {
+    "objectID": "claude-code.html#thought-models-opus",
+    "href": "claude-code.html#thought-models-opus",
+    "title": "Making a demo with Claude Code",
+    "section": "Thought Models (Opus)",
+    "text": "Thought Models (Opus)\n\nDeep reasoning capability\nComplex problem solving\nStrategic planning\nArchitectural decisions"
+  },
+  {
+    "objectID": "claude-code.html#live-demo-exploring-a-codebase",
+    "href": "claude-code.html#live-demo-exploring-a-codebase",
+    "title": "Making a demo with Claude Code",
+    "section": "Live Demo: Exploring a Codebase",
+    "text": "Live Demo: Exploring a Codebase\n# Traditional approach\nfind . -name \"*.py\" | xargs grep \"function\"\n\n# Claude Code approach\n# Natural language → Composed tool actions"
+  },
+  {
+    "objectID": "claude-code.html#best-practices",
+    "href": "claude-code.html#best-practices",
+    "title": "Making a demo with Claude Code",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nCLAUDE.md configuration\nCustom workflows\nSafety considerations\nTool permissions\n\n📚 Claude Code Best Practices"
+  },
+  {
+    "objectID": "claude-code.html#anthropic-team-talks",
+    "href": "claude-code.html#anthropic-team-talks",
+    "title": "Making a demo with Claude Code",
+    "section": "Anthropic Team Talks",
+    "text": "Anthropic Team Talks\nDeep Dives from the Claude Code Team - AI Engineer: Claude Code & the evolution of agentic coding - Boris Cherny, Anthropic - Anthropic: A conversation on Claude Code - Latent Space: Claude Code: Anthropic’s CLI Agent"
+  },
+  {
+    "objectID": "claude-code.html#common-pitfalls",
+    "href": "claude-code.html#common-pitfalls",
+    "title": "Making a demo with Claude Code",
+    "section": "Common Pitfalls",
+    "text": "Common Pitfalls\n\nOver-ambitious initial requests\nNot using CLAUDE.md\nSkipping planning phase\nIgnoring tool permissions"
+  },
+  {
+    "objectID": "claude-code.html#safety-considerations",
+    "href": "claude-code.html#safety-considerations",
+    "title": "Making a demo with Claude Code",
+    "section": "Safety Considerations",
+    "text": "Safety Considerations\n\nTool allowlists\nContainer environments\nGit integration\nCode review practices"
+  },
+  {
+    "objectID": "claude-code.html#essential-links",
+    "href": "claude-code.html#essential-links",
+    "title": "Making a demo with Claude Code",
+    "section": "Essential Links",
+    "text": "Essential Links\nClaude Code - Documentation - Best Practices - GitHub Issues\nDialogue Engineering - Answer.AI Solveit - Solveit Course - Jeremy Howard’s Answer.AI"
+  },
+  {
+    "objectID": "claude-code.html#tools-workflow",
+    "href": "claude-code.html#tools-workflow",
+    "title": "Making a demo with Claude Code",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nVoice Input - Mac Whisper - OpenAI Whisper\nQuarto & RevealJS - Quarto Documentation - RevealJS Presentations - GitHub Pages Publishing"
+  },
+  {
+    "objectID": "claude-code.html#this-presentation",
+    "href": "claude-code.html#this-presentation",
+    "title": "Making a demo with Claude Code",
+    "section": "This Presentation",
+    "text": "This Presentation\n📁 Source Repository 📄 Presentation QMD 💬 Dialogue Transcripts 🌐 Live Presentation"
+  }
+]
