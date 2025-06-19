@@ -57,6 +57,10 @@ This presentation was created collaboratively by human and AI using Claude Code 
 # Working with Claude Code
 
 ## Our Dialogue Engineering Process
+### Step 0: Working with a "thinking model"
+- Use ChatGPT o3 or Claude Opus
+- Have a dialog about what you want to do
+- Create a concise summary about what you want to do to export
 
 ### Step 1: Voice-Driven Strategic Planning
 "Think through this presentation with you as co-pilot"
@@ -89,7 +93,7 @@ WebFetch(https://www.anthropic.com/engineering/claude-code-best-practices)
 
 ## The Feedback Loop in Action
 
-```mermaid
+```{mermaid}
 graph LR
     A[Voice Input] --> B[Claude Thinks]
     B --> C[Tool Use]
@@ -262,6 +266,28 @@ find . -name "*.py" | xargs grep "function"
 - Tool permissions
 
 📚 [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+
+## Task-Specific Agents
+
+**Custom Slash Commands**: Claude Code automatically recognizes `.md` files in `.claude/commands/`
+
+### Usage Examples
+```bash
+/project:programming_lead_agent
+/project:task_breakdown_agent "user auth system"
+/project:architecture_design_agent "microservices API"
+/project:implementation_agent
+```
+
+### Agent Workflow
+- **Programming Lead**: Orchestrates development process
+- **Problem Analysis**: Transforms requirements → specifications
+- **Architecture Design**: Creates system designs
+- **Task Breakdown**: Architecture → implementable tasks
+- **Implementation**: Executes plans and builds code
+
+📁 **Included in this repo**: `.claude/commands/` directory with 9 specialized agents
+📚 **Reference**: [Awesome Claude Code Commands](https://github.com/hesreallyhim/awesome-claude-code)
 
 ## Anthropic Team Talks
 

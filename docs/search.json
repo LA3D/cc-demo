@@ -14,13 +14,6 @@
     "text": "What is Claude Code?\n\nAgentic system with reasoning capabilities\nThinks, reflects, uses tools strategically\nInteractive mode: Human-AI collaboration\nAutonomous mode: Independent task completion\n\n📚 Claude Code Documentation"
   },
   {
-    "objectID": "claude-code.html#why-this-matters-for-grad-students",
-    "href": "claude-code.html#why-this-matters-for-grad-students",
-    "title": "Making a demo with Claude Code",
-    "section": "Why This Matters for Grad Students",
-    "text": "Why This Matters for Grad Students\n\nResearch productivity multiplier\nHandle complex codebases efficiently\nVoice-driven development (Mac Whisper)\nFrom idea to implementation faster"
-  },
-  {
     "objectID": "claude-code.html#the-unix-philosophy",
     "href": "claude-code.html#the-unix-philosophy",
     "title": "Making a demo with Claude Code",
@@ -110,13 +103,6 @@
     "title": "Making a demo with Claude Code",
     "section": "Dialogue Engineering > Code Generation",
     "text": "Dialogue Engineering &gt; Code Generation\n\nSmall steps win\nVoice + AI = Productivity\nTools compose beautifully\nProcess beats genius"
-  },
-  {
-    "objectID": "claude-code.html#your-turn",
-    "href": "claude-code.html#your-turn",
-    "title": "Making a demo with Claude Code",
-    "section": "Your Turn",
-    "text": "Your Turn\n\nInstall Claude Code\nSet up CLAUDE.md in your projects\nTry voice input workflow\nStart with small problems\nBuild your dialogue engineering skills"
   },
   {
     "objectID": "claude-code.html#questions",

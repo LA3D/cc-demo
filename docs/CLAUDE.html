@@ -9,9 +9,7 @@
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-0348920b7671f696dc9078d39bff215e.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.32">
 
-  <meta name="author" content="Charles F. Vardeman II">
-  <meta name="dcterms.date" content="2025-06-19">
-  <title>Claude Code Demo – Making a demo with Claude Code</title>
+  <title>Claude Code Demo – claude</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -195,340 +193,74 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Making a demo with Claude Code</h1>
-  <p class="subtitle">Dialogue Engineering with AI</p>
 
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Charles F. Vardeman II 
-</div>
-</div>
-</div>
-
-  <p class="date">2025-06-19</p>
-</section>
 <section>
-<section id="introduction" class="title-slide slide level1 center">
-<h1>Introduction</h1>
-<p>This presentation was created collaboratively by human and AI using Claude Code itself - a live demonstration of dialogue engineering in action.</p>
-</section>
-<section id="the-meta-presentation" class="slide level2">
-<h2>The Meta-Presentation</h2>
-<ul>
-<li>These slides: Created with Claude Code</li>
-<li>The tools: Quarto + Reveal.js</li>
-<li>The method: Human + AI collaboration</li>
-<li>The proof: You’re looking at it</li>
-</ul>
-</section>
-<section id="what-is-claude-code" class="slide level2">
-<h2>What is Claude Code?</h2>
-<ul>
-<li><strong>Agentic system</strong> with reasoning capabilities</li>
-<li>Thinks, reflects, uses tools strategically</li>
-<li><strong>Interactive mode</strong>: Human-AI collaboration</li>
-<li><strong>Autonomous mode</strong>: Independent task completion</li>
-</ul>
-<p>📚 <a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code Documentation</a></p>
-</section></section>
-<section>
-<section id="core-concepts-philosophy" class="title-slide slide level1 center">
-<h1>Core Concepts &amp; Philosophy</h1>
+<section id="claude-code-demo-project" class="title-slide slide level1 center">
+<h1>Claude Code Demo Project</h1>
 
 </section>
-<section id="the-unix-philosophy" class="slide level2">
-<h2>The Unix Philosophy</h2>
+<section id="project-overview" class="slide level2">
+<h2>Project Overview</h2>
+<p>This project creates a Quarto presentation about working with Claude Code, designed for deployment as GitHub Pages. The presentation follows Jeremy Howard’s dialogue engineering approach from Answer.AI - working interactively in small steps rather than large code dumps.</p>
+</section>
+<section id="working-philosophy" class="slide level2">
+<h2>Working Philosophy</h2>
+<p>We follow the <strong>dialogue engineering</strong> methodology: - Work in small, iterative steps - Continuous feedback between human and AI - Each step makes both human and AI smarter - Focus on collaborative refinement over one-way generation</p>
+</section>
+<section id="project-structure" class="slide level2">
+<h2>Project Structure</h2>
 <ul>
-<li>Small, focused tools</li>
-<li>Composability over monoliths</li>
-<li>Text as universal interface</li>
-<li>Do one thing well</li>
+<li><code>claude-code.qmd</code> - Main Quarto markdown file for presentation</li>
+<li><code>_quarto.yml</code> - Quarto configuration for GitHub Pages</li>
+<li><code>styles.css</code> - Custom styling for the presentation</li>
+<li><code>CLAUDE.md</code> - This file (project instructions)</li>
+<li><code>pyproject.toml</code> - uv project configuration</li>
 </ul>
 </section>
-<section id="what-is-dialogue-engineering" class="slide level2">
-<h2>What is Dialogue Engineering?</h2>
-<ul>
-<li>Jeremy Howard’s Answer.AI methodology</li>
-<li>Small steps beat big code dumps</li>
-<li>“Powerful feedback loop” - each step makes both smarter</li>
-<li>Write a line, AI suggests next, iterate</li>
-</ul>
-<p>📚 <a href="https://www.answer.ai/posts/2024-11-07-solveit.html">Answer.AI Dialogue Engineering</a></p>
-</section>
-<section id="the-solveit-methodology" class="slide level2">
-<h2>The Solveit Methodology</h2>
-<ul>
-<li>Jeremy Howard’s “How to Solve It with Code”</li>
-<li>Break problems into “small, solvable pieces”</li>
-<li>Start solving concrete problems day one</li>
-<li>Not about being genius - about right process</li>
-</ul>
-<p>📚 <a href="https://solveit.fast.ai/">Solveit Course</a> | <a href="https://www.answer.ai/">Answer.AI</a></p>
-</section></section>
-<section>
-<section id="working-with-claude-code" class="title-slide slide level1 center">
-<h1>Working with Claude Code</h1>
-
-</section>
-<section id="our-dialogue-engineering-process" class="slide level2">
-<h2>Our Dialogue Engineering Process</h2>
-<h3 id="step-1-voice-driven-strategic-planning">Step 1: Voice-Driven Strategic Planning</h3>
-<p>“Think through this presentation with you as co-pilot” - Started with high-level goals - No code yet - just thinking - Voice input via Mac Whisper</p>
-</section>
-<section id="step-2-context-gathering" class="slide level2">
-<h2>Step 2: Context Gathering</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a></a><span class="co"># First action: Fetch best practices</span></span>
-<span id="cb1-2"><a></a><span class="ex">WebFetch</span><span class="er">(</span><span class="ex">https://www.anthropic.com/engineering/claude-code-best-practices</span><span class="kw">)</span></span>
-<span id="cb1-3"><a></a><span class="co"># Result: 273.2KB of guidance</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="step-3-todo-driven-structure" class="slide level2">
-<h2>Step 3: Todo-Driven Structure</h2>
-<pre><code>☐ Define presentation structure and flow
-☐ Outline Unix philosophy section
-☐ Plan dialogue engineering section
-☐ Design workflow demonstrations</code></pre>
-</section>
-<section id="step-4-iterative-refinement" class="slide level2">
-<h2>Step 4: Iterative Refinement</h2>
-<p><strong>You</strong>: “This is superficial” <strong>Action</strong>: WebSearch + WebFetch for Jeremy Howard’s methodology <strong>Result</strong>: Deeper understanding → Better content</p>
-</section>
-<section id="the-feedback-loop-in-action" class="slide level2">
-<h2>The Feedback Loop in Action</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>graph LR</span>
-<span id="cb3-2"><a></a>    A[Voice Input] --&gt; B[Claude Thinks]</span>
-<span id="cb3-3"><a></a>    B --&gt; C[Tool Use]</span>
-<span id="cb3-4"><a></a>    C --&gt; D[Human Review]</span>
-<span id="cb3-5"><a></a>    D --&gt; E[Refinement]</span>
-<span id="cb3-6"><a></a>    E --&gt; A</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Each cycle deepens understanding</p>
-</section></section>
-<section>
-<section id="live-demo-creating-these-slides" class="title-slide slide level1 center">
-<h1>Live Demo: Creating These Slides</h1>
-
-</section>
-<section id="the-meta-demonstration" class="slide level2">
-<h2>The Meta-Demonstration</h2>
-<p>These slides are the proof: - Created through our dialogue - Using the methodology we’re teaching - Voice → Planning → Research → Implementation - You’re experiencing the result</p>
-</section>
-<section id="how-we-actually-started" class="slide level2">
-<h2>How We Actually Started</h2>
+<section id="development-workflow" class="slide level2">
+<h2>Development Workflow</h2>
 <ol type="1">
-<li><strong>You opened dialogs/thinking.txt</strong> - Recording our process</li>
-<li><strong>Selected Opus model</strong> - For strategic thinking</li>
-<li><strong>Voice dictation began</strong> - Natural language planning</li>
-<li><strong>No code written yet</strong> - Just collaborative thinking</li>
+<li><strong>Plan interactively</strong> - Break tasks into small steps</li>
+<li><strong>Implement incrementally</strong> - Build one slide/section at a time</li>
+<li><strong>Test frequently</strong> - Preview changes after each step</li>
+<li><strong>Iterate based on feedback</strong> - Refine content and approach</li>
 </ol>
 </section>
-<section id="key-moments-in-our-dialogue" class="slide level2">
-<h2>Key Moments in Our Dialogue</h2>
-<h3 id="the-opening">The Opening</h3>
-<blockquote>
-<p>“I want to think through this presentation with you as co-pilot”</p>
-</blockquote>
-<h3 id="the-critique">The Critique</h3>
-<blockquote>
-<p>“This is superficial”</p>
-</blockquote>
-<h3 id="the-insight">The Insight</h3>
-<blockquote>
-<p>“The real-world application is… me walking through how I created this presentation with you”</p>
-</blockquote>
-</section>
-<section id="voice-workflow-our-actual-process" class="slide level2">
-<h2>Voice Workflow: Our Actual Process</h2>
-<ol type="1">
-<li><strong>Mac Whisper</strong> → Natural language</li>
-<li><strong>Complex thoughts</strong> → Simple commands</li>
-<li><strong>“Think through…”</strong> → Strategic planning</li>
-<li><strong>“Let’s revise…”</strong> → Iterative improvement</li>
-<li><strong>Real-time collaboration</strong> → Better results</li>
-</ol>
-</section></section>
-<section>
-<section id="key-takeaways" class="title-slide slide level1 center">
-<h1>Key Takeaways</h1>
-
-</section>
-<section id="dialogue-engineering-code-generation" class="slide level2">
-<h2>Dialogue Engineering &gt; Code Generation</h2>
+<section id="development-environment" class="slide level2">
+<h2>Development Environment</h2>
 <ul>
-<li>Small steps win</li>
-<li>Voice + AI = Productivity</li>
-<li>Tools compose beautifully</li>
-<li>Process beats genius</li>
+<li><strong>Python Environment</strong>: uv for virtual environment management</li>
+<li><strong>Quarto</strong>: Installed via Homebrew (has non-Python dependencies)</li>
+<li><strong>Quarto Markdown</strong>: Visual Studio Code (Claude Code has access)</li>
+<li><strong>Version Control</strong>: Git with GitHub Pages deployment</li>
 </ul>
 </section>
-<section id="questions" class="slide level2">
-<h2>Questions?</h2>
-<p>Let’s solve a problem together!</p>
+<section id="key-commands" class="slide level2">
+<h2>Key Commands</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a></a><span class="co"># Set up Python environment (if needed for code execution)</span></span>
+<span id="cb1-2"><a></a><span class="ex">uv</span> add jupyter</span>
+<span id="cb1-3"><a></a></span>
+<span id="cb1-4"><a></a><span class="co"># Preview presentation locally (Quarto via Homebrew)</span></span>
+<span id="cb1-5"><a></a><span class="ex">quarto</span> preview claude-code.qmd</span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a><span class="co"># Render presentation</span></span>
+<span id="cb1-8"><a></a><span class="ex">quarto</span> render claude-code.qmd</span>
+<span id="cb1-9"><a></a></span>
+<span id="cb1-10"><a></a><span class="co"># Publish to GitHub Pages</span></span>
+<span id="cb1-11"><a></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section id="reference-materials" class="title-slide slide level1 center">
-<h1>Reference Materials</h1>
-<p><em>The following slides provide detailed resources, installation guides, and additional materials for your reference.</em></p>
+<section id="content-focus" class="slide level2">
+<h2>Content Focus</h2>
+<p>The presentation covers: - Introduction to Claude Code and dialogue engineering - Interactive development principles - Practical examples and live demos - Best practices for AI-assisted coding - Step-by-step problem-solving approaches</p>
 </section>
-
-<section>
-<section id="getting-started" class="title-slide slide level1 center">
-<h1>Getting Started</h1>
-
-</section>
-<section id="getting-started-with-claude-code" class="slide level2">
-<h2>Getting Started with Claude Code</h2>
-<p><strong>Official Homepage</strong>: <a href="https://www.anthropic.com/claude-code">https://www.anthropic.com/claude-code</a></p>
-<p><strong>Installation</strong>:</p>
-<p><em>First, install Node.js 18+ (macOS with Homebrew):</em></p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a></a><span class="ex">brew</span> install node</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><em>Then install Claude Code:</em></p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a></a><span class="ex">npm</span> install <span class="at">-g</span> @anthropic-ai/claude-code</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Requirements</strong>: - macOS, Linux, or Windows (via WSL) - Claude Pro ($17/month) or Max (starting $100/month) - Terminal access</p>
-</section>
-<section id="the-terminal-advantage" class="slide level2">
-<h2>The Terminal Advantage</h2>
+<section id="deployment" class="slide level2">
+<h2>Deployment</h2>
 <ul>
-<li>Lives in your terminal, not your editor</li>
-<li>Works with VS Code, JetBrains, vim, emacs…</li>
-<li>Editor-agnostic by design</li>
-<li>Your workflow, your tools</li>
+<li>Target: GitHub Pages</li>
+<li>Format: Quarto RevealJS presentation</li>
+<li>Theme: Dark mode for better presentation visibility</li>
+<li>Features: Interactive slides, code examples, live demos</li>
 </ul>
-</section>
-<section id="voice-driven-development" class="slide level2">
-<h2>Voice-Driven Development</h2>
-<ul>
-<li>Mac Whisper integration</li>
-<li>Natural language to code</li>
-<li>Thinking out loud</li>
-<li>Rapid iteration</li>
-</ul>
-<p>📎 <a href="https://goodsnooze.gumroad.com/l/macwhisper">Mac Whisper</a> | <a href="https://superwhisper.com/">SuperWhisper</a></p>
-</section>
-<section id="repository-structure-as-memory" class="slide level2">
-<h2>Repository Structure as Memory</h2>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a></a><span class="ex">project/</span></span>
-<span id="cb6-2"><a></a><span class="ex">├──</span> CLAUDE.md          <span class="co"># Project instructions</span></span>
-<span id="cb6-3"><a></a><span class="ex">├──</span> llmstxt/          <span class="co"># Reference materials</span></span>
-<span id="cb6-4"><a></a><span class="ex">├──</span> dialogs/          <span class="co"># Saved conversations</span></span>
-<span id="cb6-5"><a></a><span class="ex">└──</span> src/              <span class="co"># Your code</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section></section>
-<section>
-<section id="tools-capabilities" class="title-slide slide level1 center">
-<h1>Tools &amp; Capabilities</h1>
-
-</section>
-<section id="claude-codes-tool-ecosystem" class="slide level2">
-<h2>Claude Code’s Tool Ecosystem</h2>
-<ul>
-<li><strong>Read/Write</strong>: File operations</li>
-<li><strong>Edit/MultiEdit</strong>: Precise modifications</li>
-<li><strong>Grep/Glob</strong>: Pattern search</li>
-<li><strong>Bash</strong>: System commands</li>
-<li><strong>WebSearch/WebFetch</strong>: Live information</li>
-</ul>
-</section>
-<section id="agentic-search-vs-vector-indexing" class="slide level2">
-<h2>Agentic Search vs Vector Indexing</h2>
-<ul>
-<li>No pre-built index needed</li>
-<li>Dynamic exploration</li>
-<li>Context-aware navigation</li>
-<li>Tools compose into workflows</li>
-</ul>
-</section>
-<section id="web-capabilities" class="slide level2">
-<h2>Web Capabilities</h2>
-<ul>
-<li><strong>WebSearch</strong>: Current information</li>
-<li><strong>WebFetch</strong>: Extract documentation</li>
-<li>Stay beyond training cutoff</li>
-<li>Real-time knowledge gathering</li>
-</ul>
-</section>
-<section id="planning-mode" class="slide level2">
-<h2>Planning Mode</h2>
-<ul>
-<li>Think before coding</li>
-<li>Decompose complex problems</li>
-<li>Strategic approach</li>
-<li>Clear execution path</li>
-</ul>
-</section>
-<section id="thought-models-opus" class="slide level2">
-<h2>Thought Models (Opus)</h2>
-<ul>
-<li>Deep reasoning capability</li>
-<li>Complex problem solving</li>
-<li>Strategic planning</li>
-<li>Architectural decisions</li>
-</ul>
-</section>
-<section id="live-demo-exploring-a-codebase" class="slide level2">
-<h2>Live Demo: Exploring a Codebase</h2>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a></a><span class="co"># Traditional approach</span></span>
-<span id="cb7-2"><a></a><span class="fu">find</span> . <span class="at">-name</span> <span class="st">"*.py"</span> <span class="kw">|</span> <span class="fu">xargs</span> grep <span class="st">"function"</span></span>
-<span id="cb7-3"><a></a></span>
-<span id="cb7-4"><a></a><span class="co"># Claude Code approach</span></span>
-<span id="cb7-5"><a></a><span class="co"># Natural language → Composed tool actions</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section></section>
-<section>
-<section id="best-practices-safety" class="title-slide slide level1 center">
-<h1>Best Practices &amp; Safety</h1>
-
-</section>
-<section id="best-practices" class="slide level2">
-<h2>Best Practices</h2>
-<ul>
-<li>CLAUDE.md configuration</li>
-<li>Custom workflows</li>
-<li>Safety considerations</li>
-<li>Tool permissions</li>
-</ul>
-<p>📚 <a href="https://www.anthropic.com/engineering/claude-code-best-practices">Claude Code Best Practices</a></p>
-</section>
-<section id="anthropic-team-talks" class="slide level2">
-<h2>Anthropic Team Talks</h2>
-<p><strong>Deep Dives from the Claude Code Team</strong> - <a href="https://youtu.be/jBr-EERbXJw?si=XVWDMKKnZUzpuBLa">AI Engineer: Claude Code &amp; the evolution of agentic coding - Boris Cherny, Anthropic</a> - <a href="https://youtu.be/Yf_1w00qIKc?si=bxmBKqtWSAYVEFgJ">Anthropic: A conversation on Claude Code</a> - <a href="https://youtu.be/zDmW5hJPsvQ?si=h7Riq3QV4cclW9IJ">Latent Space: Claude Code: Anthropic’s CLI Agent</a></p>
-</section>
-<section id="common-pitfalls" class="slide level2">
-<h2>Common Pitfalls</h2>
-<ul>
-<li>Over-ambitious initial requests</li>
-<li>Not using CLAUDE.md</li>
-<li>Skipping planning phase</li>
-<li>Ignoring tool permissions</li>
-</ul>
-</section>
-<section id="safety-considerations" class="slide level2">
-<h2>Safety Considerations</h2>
-<ul>
-<li>Tool allowlists</li>
-<li>Container environments</li>
-<li>Git integration</li>
-<li>Code review practices</li>
-</ul>
-</section></section>
-<section>
-<section id="resources-next-steps" class="title-slide slide level1 center">
-<h1>Resources &amp; Next Steps</h1>
-
-</section>
-<section id="essential-links" class="slide level2">
-<h2>Essential Links</h2>
-<p><strong>Claude Code</strong> - <a href="https://docs.anthropic.com/en/docs/claude-code">Documentation</a> - <a href="https://www.anthropic.com/engineering/claude-code-best-practices">Best Practices</a> - <a href="https://github.com/anthropics/claude-code/issues">GitHub Issues</a></p>
-<p><strong>Dialogue Engineering</strong> - <a href="https://www.answer.ai/posts/2024-11-07-solveit.html">Answer.AI Solveit</a> - <a href="https://solveit.fast.ai/">Solveit Course</a> - <a href="https://www.answer.ai/">Jeremy Howard’s Answer.AI</a></p>
-</section>
-<section id="tools-workflow" class="slide level2">
-<h2>Tools &amp; Workflow</h2>
-<p><strong>Voice Input</strong> - <a href="https://goodsnooze.gumroad.com/l/macwhisper">Mac Whisper</a> - <a href="https://github.com/openai/whisper">OpenAI Whisper</a></p>
-<p><strong>Quarto &amp; RevealJS</strong> - <a href="https://quarto.org/">Quarto Documentation</a> - <a href="https://quarto.org/docs/presentations/revealjs/">RevealJS Presentations</a> - <a href="https://quarto.org/docs/publishing/github-pages.html">GitHub Pages Publishing</a></p>
-</section>
-<section id="this-presentation" class="slide level2">
-<h2>This Presentation</h2>
-<p>📁 <a href="https://github.com/LA3D/cc-demo">Source Repository</a> 📄 <a href="https://github.com/LA3D/cc-demo/blob/main/claude-code.qmd">Presentation QMD</a> 💬 <a href="https://github.com/LA3D/cc-demo/tree/main/dialogs">Dialogue Transcripts</a> 🌐 <a href="https://la3d.github.io/cc-demo/">Live Presentation</a></p>
 
 
 </section></section>
