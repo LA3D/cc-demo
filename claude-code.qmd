@@ -26,6 +26,137 @@ This presentation was created collaboratively by human and AI using Claude Code 
 
 📚 [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
 
+
+# Core Concepts & Philosophy
+
+## The Unix Philosophy
+
+- Small, focused tools
+- Composability over monoliths
+- Text as universal interface
+- Do one thing well
+
+## What is Dialogue Engineering?
+
+- Jeremy Howard's Answer.AI methodology
+- Small steps beat big code dumps
+- "Powerful feedback loop" - each step makes both smarter
+- Write a line, AI suggests next, iterate
+
+📚 [Answer.AI Dialogue Engineering](https://www.answer.ai/posts/2024-11-07-solveit.html)
+
+## The Solveit Methodology
+
+- Jeremy Howard's "How to Solve It with Code"
+- Break problems into "small, solvable pieces"
+- Start solving concrete problems day one
+- Not about being genius - about right process
+
+📚 [Solveit Course](https://solveit.fast.ai/) | [Answer.AI](https://www.answer.ai/)
+
+# Working with Claude Code
+
+## Our Dialogue Engineering Process
+
+### Step 1: Voice-Driven Strategic Planning
+"Think through this presentation with you as co-pilot"
+- Started with high-level goals
+- No code yet - just thinking
+- Voice input via Mac Whisper
+
+## Step 2: Context Gathering
+
+```bash
+# First action: Fetch best practices
+WebFetch(https://www.anthropic.com/engineering/claude-code-best-practices)
+# Result: 273.2KB of guidance
+```
+
+## Step 3: Todo-Driven Structure
+
+```
+☐ Define presentation structure and flow
+☐ Outline Unix philosophy section
+☐ Plan dialogue engineering section
+☐ Design workflow demonstrations
+```
+
+## Step 4: Iterative Refinement
+
+**You**: "This is superficial"
+**Action**: WebSearch + WebFetch for Jeremy Howard's methodology
+**Result**: Deeper understanding → Better content
+
+## The Feedback Loop in Action
+
+```mermaid
+graph LR
+    A[Voice Input] --> B[Claude Thinks]
+    B --> C[Tool Use]
+    C --> D[Human Review]
+    D --> E[Refinement]
+    E --> A
+```
+
+Each cycle deepens understanding
+
+# Live Demo: Creating These Slides
+
+## The Meta-Demonstration
+
+These slides are the proof:
+- Created through our dialogue
+- Using the methodology we're teaching
+- Voice → Planning → Research → Implementation
+- You're experiencing the result
+
+## How We Actually Started
+
+1. **You opened dialogs/thinking.txt** - Recording our process
+2. **Selected Opus model** - For strategic thinking
+3. **Voice dictation began** - Natural language planning
+4. **No code written yet** - Just collaborative thinking
+
+## Key Moments in Our Dialogue
+
+### The Opening
+> "I want to think through this presentation with you as co-pilot"
+
+### The Critique
+> "This is superficial"
+
+### The Insight
+> "The real-world application is... me walking through how I created this presentation with you"
+
+## Voice Workflow: Our Actual Process
+
+1. **Mac Whisper** → Natural language
+2. **Complex thoughts** → Simple commands
+3. **"Think through..."** → Strategic planning
+4. **"Let's revise..."** → Iterative improvement
+5. **Real-time collaboration** → Better results
+
+# Key Takeaways
+
+## Dialogue Engineering > Code Generation
+
+- Small steps win
+- Voice + AI = Productivity
+- Tools compose beautifully
+- Process beats genius
+
+## Questions?
+
+Let's solve a problem together!
+
+---
+
+# Reference Materials
+
+*The following slides provide detailed resources, installation guides, and additional materials for your reference.*
+
+# Getting Started
+
 ## Getting Started with Claude Code
 
 **Official Homepage**: [https://www.anthropic.com/claude-code](https://www.anthropic.com/claude-code)
@@ -47,29 +178,6 @@ npm install -g @anthropic-ai/claude-code
 - Claude Pro ($17/month) or Max (starting $100/month)
 - Terminal access
 
-## What is Dialogue Engineering?
-
-- Jeremy Howard's Answer.AI methodology
-- Small steps beat big code dumps
-- "Powerful feedback loop" - each step makes both smarter
-- Write a line, AI suggests next, iterate
-
-📚 [Answer.AI Dialogue Engineering](https://www.answer.ai/posts/2024-11-07-solveit.html)
-
-## Why This Matters for Grad Students
-
-- Research productivity multiplier
-- Handle complex codebases efficiently
-- Voice-driven development (Mac Whisper)
-- From idea to implementation faster
-
-## Today's Journey
-
-- Foundation: Unix philosophy & tools
-- Methodology: How we collaborate
-- Advanced: Planning & web capabilities
-- Practice: Building these slides together
-
 ## The Terminal Advantage
 
 - Lives in your terminal, not your editor
@@ -77,14 +185,26 @@ npm install -g @anthropic-ai/claude-code
 - Editor-agnostic by design
 - Your workflow, your tools
 
-# Foundation: Philosophy & Tools
+## Voice-Driven Development
 
-## The Unix Philosophy
+- Mac Whisper integration
+- Natural language to code
+- Thinking out loud
+- Rapid iteration
 
-- Small, focused tools
-- Composability over monoliths
-- Text as universal interface
-- Do one thing well
+📎 [Mac Whisper](https://goodsnooze.gumroad.com/l/macwhisper) | [SuperWhisper](https://superwhisper.com/)
+
+## Repository Structure as Memory
+
+```bash
+project/
+├── CLAUDE.md          # Project instructions
+├── llmstxt/          # Reference materials
+├── dialogs/          # Saved conversations
+└── src/              # Your code
+```
+
+# Tools & Capabilities
 
 ## Claude Code's Tool Ecosystem
 
@@ -101,61 +221,12 @@ npm install -g @anthropic-ai/claude-code
 - Context-aware navigation
 - Tools compose into workflows
 
-## Live Demo: Exploring a Codebase
+## Web Capabilities
 
-```bash
-# Traditional approach
-find . -name "*.py" | xargs grep "function"
-
-# Claude Code approach
-# Natural language → Composed tool actions
-```
-
-# Methodology: Dialogue Engineering
-
-## The Solveit Methodology
-
-- Jeremy Howard's "How to Solve It with Code"
-- Break problems into "small, solvable pieces"
-- Start solving concrete problems day one
-- Not about being genius - about right process
-
-📚 [Solveit Course](https://solveit.fast.ai/) | [Answer.AI](https://www.answer.ai/)
-
-## Our Actual Process
-
-1. **Voice-driven planning**: "Think through this presentation with you as co-pilot"
-2. **Web research first**: Fetched Claude Code best practices immediately
-3. **Todo-driven structure**: Created task list before coding
-4. **Iterative refinement**: "This is superficial" → deeper research
-5. **Meta-awareness**: Using the creation process as demo content
-
-## Repository Structure
-
-```
-project/
-├── CLAUDE.md          # Project instructions
-├── llmstxt/          # Reference materials
-├── dialogs/          # Saved conversations
-└── src/              # Your code
-```
-
-## Voice-Driven Development
-
-- Mac Whisper integration
-- Natural language to code
-- Thinking out loud
-- Rapid iteration
-
-## The Feedback Loop We Used
-
-1. **Voice → Strategic thinking**: Mac Whisper to Claude Code
-2. **Research → Context**: WebFetch for best practices, solveit methodology  
-3. **Structure → Implementation**: Todo list → slide stubs → refinement
-4. **Critique → Improvement**: "Superficial" → deeper research → better content
-5. **Meta-recursion**: Process becomes content
-
-# Advanced: Strategic Thinking
+- **WebSearch**: Current information
+- **WebFetch**: Extract documentation
+- Stay beyond training cutoff
+- Real-time knowledge gathering
 
 ## Planning Mode
 
@@ -171,12 +242,17 @@ project/
 - Strategic planning
 - Architectural decisions
 
-## Web Capabilities
+## Live Demo: Exploring a Codebase
 
-- **WebSearch**: Current information
-- **WebFetch**: Extract documentation
-- Stay beyond training cutoff
-- Real-time knowledge gathering
+```bash
+# Traditional approach
+find . -name "*.py" | xargs grep "function"
+
+# Claude Code approach
+# Natural language → Composed tool actions
+```
+
+# Best Practices & Safety
 
 ## Best Practices
 
@@ -187,36 +263,12 @@ project/
 
 📚 [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)
 
-# Practice: Creating These Slides
+## Anthropic Team Talks
 
-## The Meta-Demonstration
-
-- These slides were made using Claude Code
-- Live dialogue engineering
-- Real workflow demonstration
-- You're seeing the result
-
-## Initial Setup
-
-```bash
-# Repository structure
-cc-demo/
-├── CLAUDE.md
-├── claude-code.qmd
-├── dialogs/
-└── llmstxt/
-```
-
-## Planning Our Approach
-
-- Used Opus for strategic thinking
-- Created todo list for tracking
-- Fetched best practices documentation
-- Iterative content development
-
-## Voice Workflow in Action
-
-[Live demonstration of voice input]
+**Deep Dives from the Claude Code Team**
+- [AI Engineer: Claude Code & the evolution of agentic coding - Boris Cherny, Anthropic](https://youtu.be/jBr-EERbXJw?si=XVWDMKKnZUzpuBLa)
+- [Anthropic: A conversation on Claude Code](https://youtu.be/Yf_1w00qIKc?si=bxmBKqtWSAYVEFgJ)
+- [Latent Space: Claude Code: Anthropic's CLI Agent](https://youtu.be/zDmW5hJPsvQ?si=h7Riq3QV4cclW9IJ)
 
 ## Common Pitfalls
 
@@ -263,22 +315,3 @@ cc-demo/
 📄 [Presentation QMD](https://github.com/LA3D/cc-demo/blob/main/claude-code.qmd)
 💬 [Dialogue Transcripts](https://github.com/LA3D/cc-demo/tree/main/dialogs)
 🌐 [Live Presentation](https://la3d.github.io/cc-demo/)
-
-## Key Takeaways
-
-- Dialogue engineering > Code generation
-- Small steps win
-- Voice + AI = Productivity
-- Tools compose beautifully
-
-## Your Turn
-
-1. Install Claude Code
-2. Set up CLAUDE.md in your projects
-3. Try voice input workflow
-4. Start with small problems
-5. Build your dialogue engineering skills
-
-## Questions?
-
-Let's solve a problem together!
