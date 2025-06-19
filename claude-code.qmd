@@ -26,6 +26,27 @@ This presentation was created collaboratively by human and AI using Claude Code 
 
 📚 [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
 
+## Getting Started with Claude Code
+
+**Official Homepage**: [https://www.anthropic.com/claude-code](https://www.anthropic.com/claude-code)
+
+**Installation**:
+
+*First, install Node.js 18+ (macOS with Homebrew):*
+```bash
+brew install node
+```
+
+*Then install Claude Code:*
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+**Requirements**:
+- macOS, Linux, or Windows (via WSL)
+- Claude Pro ($17/month) or Max (starting $100/month)
+- Terminal access
+
 ## What is Dialogue Engineering?
 
 - Jeremy Howard's Answer.AI methodology

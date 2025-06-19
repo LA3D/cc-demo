@@ -1,12 +1,12 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "Claude Code Demo"
   description: "Interactive presentation on Claude Code and dialogue engineering"
-  site-url: "https://yourusername.github.io/cc-demo"
-  repo-url: "https://github.com/yourusername/cc-demo"
+  site-url: "https://la3d.github.io/cc-demo"
+  repo-url: "https://github.com/LA3D/cc-demo"
   repo-actions: [edit, issue]
   
   navbar:
